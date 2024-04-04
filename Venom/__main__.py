@@ -17,7 +17,7 @@ async def anony_boot():
     for all_module in ALL_MODULES:
         importlib.import_module("Venom.modules." + all_module)
 
-    LOGGER.info(f"@{tmm.username} Started.")
+    LOGGER.info(f"@{VenomX.username} Started.")
     await idle()
 
 
