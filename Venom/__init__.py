@@ -1,6 +1,6 @@
 import logging 
 import time
-from abg import patch
+from Abg import patch
 
 from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
 from pyrogram import Client
